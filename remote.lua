@@ -71,7 +71,7 @@ end
 
 --@help Channel down
 actions.channel_down = function ()
-	keyboard.stroke("minus");
+	keyboard.text("-");
 end
 
 --@help Jump forward
